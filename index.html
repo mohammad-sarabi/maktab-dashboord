@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="main">
+        <aside class="sidebar">
+            <div class="side-header">
+                <div class="date">
+                    <h3>15:26</h3>
+                    <h5>یکشنبه، 12 فروردین</h5>
+                </div>
+
+                <div class="profile">
+                    <img src="./img/1583953060728.jpg" alt="profile">
+                    <div class="profile-name">
+                        <h4>محمد سرابی </h4>
+                        <h5>توسعه دهنده<i class="fa fa-caret-left"></i></h5>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <ul>
+                    <li class="active"><a href="#"><i class="fas fa-tv"></i>داشبورد</a></li>
+
+                    <li><a href="#"><i class="fas fa-comment-alt-lines"></i>صندوق پیام</a><span class="num">2</span>
+                    </li>
+
+                    <li><a href="#"><i class="fas fa-ticket-alt"></i>تیکت</a><span class="num">18</span></li>
+
+                    <li><a href="#"><i class="fas fa-books"></i>دانشنامه</a><span><i
+                                class="fas fa-caret-down"></i></span>
+                        <ul>
+                            <li><a href="#">همه دانشنامه ها</a></li>
+                            <li><a href="#">پیش نویس ها</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li><a href="#"><i class="fas fa-file-alt"></i>اخبار</a><span><i
+                                class="fas fa-caret-down"></i></span></li>
+
+                    <li><a href="#"> <i class="fas fa-cog"></i>مدیریت</a><span><i class="fas fa-caret-left"></i></span>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+        </aside>
+
+
+        <section class="content">
+            <div class="header">
+                <ul>
+                    <li >
+                        <p>تعداد کل کاربران</p>
+                        <h4>238</h4>
+                        <p><span>145 </span>کاربر فعال</p>
+                        <div class="pic"><img src="./img/users.png" alt="users"></div>
+                    </li>
+
+                    <li  class="card-orange">
+                        <p>تعداد کل تیکت ها</p>
+                        <h4>856</h4>
+                        <p><span>523 </span>تیکت بسته شده</p>
+                        <div class="pic"><img src="./img/tickets.png" alt="tickets"></div>
+                    </li>
+
+                    <li class="card-red">
+                        <p>تعداد کل دانشنامه ها</p>
+                        <h4>619</h4>
+                        <p><span><i class="fal fa-arrow-up"></i>4/6% </span>نسبت به ماه گذشته</p>
+                        <div class="pic"><img src="./img/encyclopedias.png" alt="encyclopedias"></div>
+                    </li>
+
+
+                    <li>
+                        <p>تعداد کل خبرها</p>
+                        <h4>1253</h4>
+                        <p><span><i class="fal fa-arrow-down"></i>6/2% </span>نسبت به ماه گذشته</p>
+                        <div class="pic"><img src="./img/messages.png" alt="messages"></div>
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <section class="article">
+                <div class="edit">
+                    <i class="fas fa-edit"></i>
+                </div>
+
+                <div class="summary">
+                    <p>خلاصه عملکرد</p>
+                    <select>
+                        <option value="ماه گذشته">ماه گذشته</option>
+                    </select>
+                </div>
+            </section>
+
+
+            <section class="tickets">
+                <div class="tickets-star">
+                    <div class="header">
+                        <ul>
+                            <li class="active">تیکت های ستاره دار <span>130</span></li>
+                            <li>باز (همراه با پاسخ) <span>52</span></li>
+                            <li>باز (بدون پاسخ) <span>29</span></li>
+                            <li>بسته <span>280</span></li>
+                        </ul>
+                    </div>
+                    <div class="body">
+                        <table class="table1">
+                            <tr id="header">
+                                <th><br><br><br></th>
+                                <th> <span>عنوان</span> </th>
+                                <th> <span> ایجاد شده توسط</span> </th>
+                                <th> <span>اولویت</span> </th>
+                                <th> <span>آخرین پاسخ دهنده</span> </th>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableSymble"></div>
+                                </td>
+                                <td>
+                                    تعویض کارت صدای سیستم
+                                    <br>
+                                    <span>
+                                        <input type="checkbox" name="" id="">
+                                        <span class="grey">عمومی</span>
+                                    </span>
+
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="display: flex; flex-direction:row;">
+                                        <div class="icon">
+                                            <div></div>
+                                            <div></div>
+                                            <div style="background-color: brown"></div>
+                                        </div>
+                                        <span>کم</span>
+                                    </div>
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableSymble"></div>
+                                </td>
+                                <td>
+                                    تعویض کارت صدای سیستم
+                                    <br>
+                                    <span>
+                                        <input type="checkbox" name="" id="">
+                                        <span class="grey">عمومی</span>
+                                    </span>
+
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="display: flex;">
+                                        <div class="icon">
+                                            <div></div>
+                                            <div></div>
+                                            <div style="background-color: brown"></div>
+                                        </div>
+                                        <span>کم</span>
+                                    </div>
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableSymble"></div>
+                                </td>
+                                <td>
+                                    تعویض کارت صدای سیستم
+                                    <br>
+                                    <span>
+                                        <input type="checkbox" name="" id="">
+                                        <span class="grey">عمومی</span>
+                                    </span>
+
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="display: flex;">
+                                        <div class="icon">
+                                            <div></div>
+                                            <div></div>
+                                            <div style="background-color: brown"></div>
+                                        </div>
+                                        <span>کم</span>
+                                    </div>
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableSymble"></div>
+                                </td>
+                                <td>
+                                    <span> تعویض کارت صدای سیستم</span>
+                                    <br>
+                                    <span>
+                                        <input type="checkbox" name="" id="">
+                                        <span class="grey">عمومی</span>
+                                    </span>
+
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="display: flex;">
+                                        <div class="icon">
+                                            <div></div>
+                                            <div></div>
+                                            <div style="background-color: brown"></div>
+                                        </div>
+                                        <span>کم</span>
+                                    </div>
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableSymble"></div>
+                                </td>
+                                <td>
+                                    تعویض کارت صدای سیستم
+                                    <br>
+                                    <span>
+                                        <input type="checkbox" name="" id="">
+                                        <span class="grey">عمومی</span>
+                                    </span>
+
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="display: flex;">
+                                        <div class="icon">
+                                            <div></div>
+                                            <div></div>
+                                            <div style="background-color: brown"></div>
+                                        </div>
+                                        <span>کم</span>
+                                    </div>
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableSymble"></div>
+                                </td>
+                                <td>
+                                    تعویض کارت صدای سیستم
+                                    <br>
+                                    <span>
+                                        <input type="checkbox" name="" id="">
+                                        <span class="grey">عمومی</span>
+                                    </span>
+
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="display: flex;">
+                                        <div class="icon">
+                                            <div></div>
+                                            <div></div>
+                                            <div style="background-color: brown"></div>
+                                        </div>
+                                        <span>کم</span>
+                                    </div>
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableSymble"></div>
+                                </td>
+                                <td>
+                                    تعویض کارت صدای سیستم
+                                    <br>
+                                    <span>
+                                        <input type="checkbox" name="" id="">
+                                        <span class="grey">عمومی</span>
+                                    </span>
+
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="display: flex;">
+                                        <div class="icon">
+                                            <div></div>
+                                            <div></div>
+                                            <div style="background-color: brown"></div>
+                                        </div>
+                                        <span>کم</span>
+                                    </div>
+                                </td>
+                                <td class="tableImg">
+                                    <img src="./img/919554_-210113.jpg" alt="">
+                                    <div>
+                                        <span>علی مهزیاری</span>
+                                        <br>
+                                        <br>
+                                        <span class="grey">3 روز پیش</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="message-box">
+                    <div class="header">
+                        <p>صندوق پیام</p>
+                        <select>
+                            <option value="ماه گذشته">ماه گذشته</option>
+                        </select>
+                    </div>
+                    <div class="body">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="./img/985345_-210144.jpg" alt="">
+
+                                </td>
+                                <td>
+
+                                    <span class="titele">
+                                        <h4 class="titele2">علی مهدیار<span class="titele3">پیام جدید</span></h4><span
+                                           >2 روز پیش</span>
+                                    </span>
+                                    <h4>گزارش کارکرد دورهی هفتم آقای حسینی</h4>
+                                    <p>
+
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است. چاپگرها و متون بلکه روزنامه است!</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./img/985345_-210144.jpg" alt="">
+
+                                </td>
+                                <td>
+
+                                    <span class="titele">
+                                        <h4 class="titele2">علی مهدیار<span class="titele3">پیام جدید</span></h4><span
+                                            style="color: hsl(0, 0%, 75%) ;">2 روز پیش</span>
+                                    </span>
+                                    <h4>گزارش کارکرد دورهی هفتم آقای حسینی</h4>
+                                    <p>
+
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است. چاپگرها و متون بلکه روزنامه است!</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./img/985345_-210144.jpg" alt="">
+
+                                </td>
+                                <td>
+
+                                    <span class="titele">
+                                        <h4 class="titele2">علی مهدیار<span class="titele3">پیام جدید</span></h4><span
+                                            style="color: hsl(0, 0%, 75%) ;">2 روز پیش</span>
+                                    </span>
+                                    <h4>گزارش کارکرد دورهی هفتم آقای حسینی</h4>
+                                    <p>
+
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است. چاپگرها و متون بلکه روزنامه است!</p>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <section class="tables">
+                <div class="table-div">
+                    <div class="header-div">
+                        <span class="taitle-span">
+                            <p>خبرهای ستاره دار
+                            </p>
+
+                            <p> خبرهای بدون ستاره</p>
+                        </span>
+                        <select>
+                            <option value="ماه گذشته">ماه گذشته</option>
+                        </select>
+                    </div>
+                    <table>
+                        <tr id="header">
+                            <th><br><br></th>
+                            <th> <span>عنوان</span> </th>
+                            <th> <span> ایجاد شده توسط</span> </th>
+                            <th style="position: absolute;"></th>
+                            <th> <span>سامانه </span> </th>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+
+
+                    </table>
+
+                </div>
+                <div class="table-div">
+                    <div class="header-div">
+                        <span class="taitle-span">
+                            <p>خبرهای ستاره دار
+                            </p>
+
+                            <p> خبرهای بدون ستاره</p>
+                        </span>
+                        <select>
+                            <option value="ماه گذشته">ماه گذشته</option>
+                        </select>
+                    </div>
+                    <table>
+                        <tr id="header">
+                            <th><br><br></th>
+                            <th> <span>عنوان</span> </th>
+                            <th> <span> ایجاد شده توسط</span> </th>
+                            <th style="position: absolute;"></th>
+                            <th> <span>سامانه </span> </th>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="tableSymble"></div>
+                            </td>
+                            <td>
+                                تعویض کارت صدای سیستم
+                                <br>
+                                <span>
+                                    <input type="checkbox" name="" id="">
+                                    <span class="grey">عمومی</span>
+                                </span>
+
+                            </td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                            <td></td>
+                            <td class="tableImg">
+                                <img src="./img/919554_-210113.jpg" alt="">
+                                <div>
+                                    <span>علی مهزیاری</span>
+                                    <br>
+                                    <br>
+                                    <span class="grey">3 روز پیش</span>
+                                </div>
+                            </td>
+                        </tr>
+
+
+                    </table>
+
+                </div>
+            </section>
+
+        </section>
+
+    </div>
+
+
+
+</body>
+
+</html>
